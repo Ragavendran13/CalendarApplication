@@ -112,7 +112,7 @@ function printDate() {
     }
 
     if(t === '1' || t === '01') {
-        displayMonth.innerHTML = "Jan "+year;
+        displayMonth.innerHTML = "Jan     "+year;
         n = 31;
     }
     else if(t === '2' || t === '02') {
@@ -131,46 +131,46 @@ function printDate() {
             n = 28;
         }
 
-        displayMonth.innerHTML = "Feb "+year;
+        displayMonth.innerHTML = "Feb     "+year;
     }
     else if(t === '3' || t === '03') {
-        displayMonth.innerHTML = "Mar "+year;
+        displayMonth.innerHTML = "Mar     "+year;
         n = 31;
     }
     else if(t === '4' || t === '04') {
-        displayMonth.innerHTML = "Apr "+year;
+        displayMonth.innerHTML = "Apr     "+year;
         n = 30;
     }
     else if(t === '5' || t === '05') {
-        displayMonth.innerHTML = "May "+year;
+        displayMonth.innerHTML = "May     "+year;
         n = 31;
     }
     else if(t === '6' || t === '06') {
-        displayMonth.innerHTML = "Jun "+year;
+        displayMonth.innerHTML = "Jun     "+year;
         n = 30;
     }
     else if(t === '7' || t === '07') {
-        displayMonth.innerHTML = "Jul "+year;
+        displayMonth.innerHTML = "Jul     "+year;
         n = 31;
     }
     else if(t === '8' || t === '08') {
-        displayMonth.innerHTML = "Aug "+year;
+        displayMonth.innerHTML = "Aug     "+year;
         n = 31;
     }
     else if(t === '9' || t === '09') {
-        displayMonth.innerHTML = "Sep "+year;
+        displayMonth.innerHTML = "Sep     "+year;
         n = 30;
     }
     else if(t === '10') {
-        displayMonth.innerHTML = "Oct "+year;
+        displayMonth.innerHTML = "Oct     "+year;
         n = 31;
     }
     else if(t === '11') {
-        displayMonth.innerHTML = "Nov "+year;
+        displayMonth.innerHTML = "Nov     "+year;
         n = 30;
     }
     else if(t === '12') {
-        displayMonth.innerHTML = "Dec "+year;
+        displayMonth.innerHTML = "Dec     "+year;
         n = 31;
     }
 
